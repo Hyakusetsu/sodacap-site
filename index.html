@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ソーダキャップ</title>
+<!-- 自動生成: docs/build_site_index.py(正は docs/STORE_COPY.md の説明文)。手で直さない -->
 <style>
   :root { color-scheme: light dark; --ink:#1a1a1a; --muted:#666; --paper:#f5f5f5; --line:#ddd; }
   @media (prefers-color-scheme: dark) {
@@ -14,32 +15,72 @@
          line-height:1.8; }
   main { max-width:38rem; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
   h1 { font-size:1.5rem; line-height:1.4; margin:0 0 .25rem; }
-  .lede { color:var(--muted); margin:0 0 2.5rem; }
-  ul { list-style:none; padding:0; margin:0; }
-  li { margin:0 0 1rem; }
+  h2 { font-size:1.05rem; margin:2.25rem 0 .4rem; }
+  p { margin:0 0 .6rem; }
+  .lede { font-size:1.15rem; font-weight:600; margin:0 0 .75rem; }
+  .intro { margin:0 0 1.5rem; }
+  .nav { list-style:none; padding:0; margin:0 0 1rem; display:flex; gap:1.25rem; flex-wrap:wrap; }
   a { color:inherit; }
-  .lang { color:var(--muted); font-size:.85rem; margin:0 0 2rem; }
+  .lang { color:var(--muted); font-size:.85rem; margin:0 0 1rem; }
   .key { font-weight:600; }
-  footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--line);
-           color:var(--muted); font-size:.85rem; }
+  .note { color:var(--muted); font-size:.85rem; margin-top:2.5rem; padding-top:1.25rem;
+          border-top:1px solid var(--line); }
+  .note p { margin:0 0 .35rem; }
+  footer { margin-top:2rem; color:var(--muted); font-size:.85rem; }
 </style>
 </head>
 <body>
 <main>
   <h1>ソーダキャップ</h1>
-  <p class="lede">明日の健康のための、気軽な一歩。</p>
-  <p>飲んだドリンクを記録すると直近24時間に摂取した糖類の量が分かります。</p>
-
+  <p class="lede">健康な体への最初の一歩。</p>
+  <p class="intro">まずは甘い飲み物を飲む量を少し減らして、元気な生活を目指そう。</p>
+  <p class="intro">ソーダキャップは、甘い飲み物を記録して、直近24時間に摂った糖類の量を見えるようにするアプリです。</p>
   <p class="lang"><span class="key">日本語</span> · <a href="index-en.html">English</a></p>
-
-  <ul>
+  <ul class="nav">
     <li><a href="privacy.html">プライバシーポリシー</a></li>
     <li><a href="support.html">サポート</a></li>
   </ul>
-
-  <footer>
-    Soda Cap（ソーダキャップ）
-  </footer>
+  <h2>あなたの体格から算出します</h2>
+  <p>年齢や体重、身長などを入れるだけで、1日に摂る糖類の目安を算出します。</p>
+  <p>根拠は、WHOの指針と、30の国と地域それぞれの公的な基準です。</p>
+  <h2>記録は3秒で</h2>
+  <p>飲んだ飲み物と量を選ぶだけで、記録は完了します。</p>
+  <p>ホーム画面のウィジェット、コントロールセンター、Siriからも記録できます。</p>
+  <h2>どんな飲み物でも登録できます</h2>
+  <p>飲み物は、名前で検索するか、バーコードを読み取って探せます。アプリ内に無いバーコードは、商品データベース（Open Food Facts）から探します。</p>
+  <p>見つからない飲み物も、栄養成分表示の数値を入れるだけで、糖類の量を自動で計算します。</p>
+  <h2>住んでいる地域に合わせます</h2>
+  <p>同じコーラでも、糖類の量は国によって違います。</p>
+  <p>住んでいる地域を選ぶだけで、その国の糖類の基準と、その国で売られている飲み物の値が自動で使われます。</p>
+  <p>30の国と地域に対応し、いずれも各国・地域の公的な食品成分表とメーカーの公表値から収録しています。該当する国がないときは、国際基準を選べます。</p>
+  <h2>一日の流れをタイムラインで</h2>
+  <p>その日いつ何を飲んだかを、タイムラインで確かめられます。</p>
+  <p>よく飲む時間帯も見えてきます。</p>
+  <h2>ひと月をひと目で</h2>
+  <p>ひと月分をカレンダーでも表示します。</p>
+  <p>その日の容器がそのまま並ぶので、目安を超えなかった日も、超えた日もひと目で分かります。</p>
+  <p>日付を選べば、その日に何を飲んだかを確認できます。</p>
+  <h2>容器とテーマカラーを選べます</h2>
+  <p>容器はペットボトル・缶・瓶・グラスの4種類。</p>
+  <p>テーマカラーは8配色。色に頼らず、記号でも状態が分かるようにしてあります。</p>
+  <p>週の始まりと暦（西暦・和暦・仏暦・民國暦）も選べます。</p>
+  <p>ロック画面には、容器と次に減るまでの時間を置けます。</p>
+  <h2>あなたの記録は、あなたの手元に</h2>
+  <p>アカウント登録は不要です。広告も、利用状況の解析もありません。</p>
+  <p>記録の控えはあなた自身のiCloudに預けるので、機種を変えても続きから使えます。</p>
+  <p>開発者のサーバーへ送るものはありません。記録はCSVで書き出せます。</p>
+  <h2>対応言語</h2>
+  <p>日本語 / English / 中文（简体・繁體）/ 한국어 / Español / Français / Deutsch / Italiano / Português (Brasil) / Dansk / Norsk / Svenska / ไทย / Nederlands / Polski / Türkçe / Bahasa Indonesia</p>
+  <h2>ペットボトル症候群について</h2>
+  <p>甘い飲み物を多量に飲み続けると、糖尿病と言われたことがない人でも、ケトアシドーシスという危険な状態を起こすことがあります。清涼飲料水ケトーシス、いわゆる「ペットボトル症候群」です。</p>
+  <p>のどの渇き、尿が増える、体重が減る、だるいといった症状が急に現れ、悪化すると吐き気や腹痛、意識障害に至ることもあります（日本糖尿病学会）。</p>
+  <p>思い当たる症状があるときは、アプリより先に医療機関を受診してください。</p>
+  <div class="note">
+    <p>本アプリは一般的な目安を示すもので、医学的助言ではありません。</p>
+    <p>糖尿病等で治療中の方、妊娠中・授乳中の方、成長期のお子さんは、医師・管理栄養士の指示を優先してください。</p>
+    <p>対象は6歳以上で、18歳未満は保護者の管理下での利用を想定しています。</p>
+  </div>
+  <footer>Soda Cap（ソーダキャップ）</footer>
 </main>
 </body>
 </html>
